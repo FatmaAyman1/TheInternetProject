@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/web automation project/WebAutomationProject">
+        <classes>
+
+            <class name="alerts.AlertTests">
+                <methods>
+                    <include name="testAlertsPage"/>
+                    <include name="testGetTextFromAlert"/>
+                    <include name="testSetInputInAlert"/>
+                </methods>
+            </class>
+
+            <class name="alerts.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+
+            <class name="dropdown.DropdownTests">
+                <methods>
+                    <include name="testSelectedOption"/>
+                </methods>
+            </class>
+
+            <class name="frames.FramesTests">
+                <methods>
+                    <include name="testFramesPage"/>
+                </methods>
+            </class>
+
+            <class name="hover.HoverTests">
+                <methods>
+                    <include name="testHoverUser1"/>
+                </methods>
+            </class>
+
+            <class name="javaScript.JavaScriptTests">
+                <methods>
+                    <include name="testScrollToTable"/>
+                    <include name="testScrollToFifthParagraph"/>
+                </methods>
+            </class>
+
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackspace"/>
+                </methods>
+            </class>
+
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+
+            <class name="navigation.NavigationTests">
+                <methods>
+                    <include name="testNavigator"/>
+                    <include name="testSwitchTab"/>
+                </methods>
+            </class>
+
+            <class name="popUps.MenuTests">
+                <methods>
+                    <include name="testRightClick"/>
+                </methods>
+            </class>
+
+            <class name="sliders.SliderTests">
+                <methods>
+                    <include name="testSlideToWholeNumber"/>
+                </methods>
+            </class>
+
+            <class name="wait.WaitTests">
+                <methods>
+                    <include name="testWaitUntilHidden"/>
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+</suite>
